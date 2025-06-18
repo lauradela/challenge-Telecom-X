@@ -33,7 +33,7 @@ Limpeza e Tratamento dos Dados
 >. o arquivo foi salvo em um DataFrame chamado df_final como um arquivo CSV
 .eliminação de dados nulos ou ausentes, strings vazias, linhas duplicadas e correção de colunas do tipo object para float
 ----------------------------------------------
-Durante o processo de limpeza da base de dados, foram removidos 11 clientes que apresentavam tenure = 0 (ou seja, sem tempo de permanência) e valores ausentes nas colunas 'Churn' e 'Charges.Total'.
+>Durante o processo de limpeza da base de dados, foram removidos 11 clientes que apresentavam tenure = 0 (ou seja, sem tempo de permanência) e valores ausentes nas colunas 'Churn' e 'Charges.Total'.
 --------------------------------------------------
 ##* Análise Exploratória
 
