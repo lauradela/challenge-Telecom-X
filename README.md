@@ -37,18 +37,6 @@ Limpeza e Tratamento dos Dados
 --------------------------------------------------
 ##* Análise Exploratória
 
->O serviço mais utilizado é o Phone Service (assinatura de serviço telefônico), com 6.560 clientes .
-A taxa de churn entre quem tem só uma linha foi relativamente baixa, o que indica que esse grupo é mais estável se comparado com clientes que têm várias linhas, percebe=se diferenças de comportamento.
-
-Clientes com múltiplas linhas têm uma taxa de churn levemente maior do que aqueles com apenas uma linha.
-Essa pequena diferença indica que a simples posse do serviço telefônico não é um fator determinante isolado para a evasão.
-
-A maioria dos clientes (aproximadamente 90%) possui o serviço telefônico ativo. Entre esses clientes, a taxa de churn observada é de 26,75%, ligeiramente superior à taxa de evasão de 25% registrada entre os clientes que não possuem o serviço.
-A diferença entre os grupos não é muito grande, mas pode indicar que clientes com múltiplas linhas estão mais expostos a problemas técnicos ou cobranças, possuem perfis mais complexos, o que pode aumentar a chance de cancelamento.
-
-Já os clientes com uma única linha mostram maior fidelidade, podendo representar um perfil mais simples e estável de usuário.
-
-Embora a diferença não seja extrema, entender o comportamento de clientes com múltiplas linhas pode ajudar a identificar melhorias no serviço ou em pacotes oferecidos para esse público. Estratégias de retenção específicas podem ser exploradas para esse grupo.
 
 
 InternetService e seus adicionais:
@@ -58,11 +46,10 @@ Percentual de clientes com somente Internet: 12.45%
 
 ### Churn por Tipo de Internet 
 
-![Gráfico de Churn](tipo_ de_ internet.png)
+![Gráfico de Churn](graficos_churn/churn_por_InternetService.png)
 
 ### Proporção de Clientes por Serviços Adicionais de Internet
-![Gráfico de Adicionais de Internet/Proporção]
-(adicionaisInt.png)
+![Gráfico de Adicionais de Internet/Proporção](graficos_churn/adicionaisInt.png)
 
 Parece evidente que os serviços adicionais de internet contribuem para uma menor taxa de evasão, principalmente aqueles que dependem de um feedback da empresa.
 
@@ -71,10 +58,12 @@ Parece evidente que os serviços adicionais de internet contribuem para uma meno
 Há um claro efeito protetor da fidelização: quanto maior a duração do contrato, menor a evasão.
 
 ### Churn por faixa Etária
-(seniorCit.png)
+(
+![Gráfico de Churn](graficos_churn/seniorCit.png)
 
 ### Churn por Senior
-(proporcaoChurn.png)
+
+![Gráfico de Churn](graficos_churn/proporcaoChurn.png)
 
 Isso indica que clientes mais velhos talvez necessitem de  um atendimento mais direcionado a esse público.
 
